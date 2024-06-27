@@ -1,6 +1,7 @@
 # PRODIGY_WD_04
 PIT/JUN24/07945
 
+![Screenshot 2024-06-27 195919](https://github.com/SandhyaPitchika/PRODIGY_WD_04/assets/173603999/2d9ec541-e858-4c90-acc4-6f2cb632acb1)
 
 ## Features
 About Me: A brief introduction about myself, highlighting my skills and interests.
