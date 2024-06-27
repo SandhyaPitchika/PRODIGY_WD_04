@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #511196;
+        }
+        header {
+            background-color: #333;
+            color: rgb(240, 227, 227);
+            text-align: center;
+            padding: 20px 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        #showcase {
+            background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
+            color: #823169;
+            height: 500px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #showcase h1 {
+            font-size: 55px;
+            margin: 0;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        .section {
+            padding: 40px 0;
+        }
+        .about-me, .skills, .projects {
+            background: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .about-me h2, .skills h2, .projects h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        .about-me p, .skills p, .projects p {
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+
+    <div id="showcase">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Your one-stop to know more about me and my work</p>
+        </div>
+    </div>
+
+    <section class="section about-me">
+        <div class="container">
+            <img src="https://via.placeholder.com/150" alt="Profile Photo" class="profile-pic">
+            <h2>About Me</h2>
+            <p>Hi, I'm Sandhya, a passionate web developer with expertise in creating dynamic and responsive websites. I have a strong background in both front-end and back-end development, and I enjoy solving complex problems and building high-quality applications.</p>
+            <p>Education: Bachelor’s Degree in Information Technology at Aditya Institute of Technology and Management</p>
+            <p>I'm good at some of languages.</p>
+        </div>
+    </section>
+
+    <section class="section skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <p>HTML, CSS, JavaScript, MongoDB, SQL and more.</p>
+        </div>
+    </section>
+
+    <section class="section projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <p>Project 1: <a href="#">Project Link</a></p>
+            <p>Project 2: <a href="#">Project Link</a></p>
+            <p>Project 3: <a href="#">Project Link</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 P.Sandhya. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
